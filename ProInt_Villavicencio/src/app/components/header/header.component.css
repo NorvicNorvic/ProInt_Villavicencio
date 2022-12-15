@@ -1,0 +1,23 @@
+
+div{
+    background-color:#3b5b70;
+}
+
+#LOGO{
+    float:left;
+    width: 65%;
+  
+}
+#SOCIAL{
+    float:right;
+    height: 120px;
+    width: 35%;
+  
+}
+
+#BANNER{
+    height: 402px;
+    background-color: red;
+}
+
+

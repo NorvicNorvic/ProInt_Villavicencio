@@ -1,0 +1,55 @@
+.row{
+   padding: 2px;
+}
+
+div{
+    background-color: #3b5b70;
+ 
+    text-align: justify;
+}
+
+/*etiqueta nombre*/
+#nombre{
+    font-weight: bold;
+    margin-top: 30%;
+    font-size: 14px;
+    margin-left: 2px;
+    text-align: center;
+}
+
+/*etiqueta nombre profesión*/
+#nomProfesion{
+    font-family: fantasy;
+    text-align: center;
+}
+
+/*foto de perfil*/
+@media(min-width:576px){
+    #fotoDePerfil{
+        position: absolute;
+        width: 15%;
+        border-radius: 100%;
+        box-shadow: 3px 3px 3px blue;
+        left:3px;
+        top: 480px;
+        margin-left: 15px;
+        
+    }
+}
+
+@media(max-width:575px){
+    #fotoDePerfil{
+        position: absolute;
+        width: 25%;
+        border-radius: 100%;
+        box-shadow: 3px 3px 3px 3px;
+        left:30%;
+        top: 510px;
+        margin-left: 10px;
+        
+    }
+}
+/*título Acerca de mi*/
+#titPres{
+    text-align: center;
+}
