@@ -1,17 +1,17 @@
 .row{
-   padding: 2px;
+   padding: 1px;
 }
 
 div{
     background-color: #3b5b70;
- 
     text-align: justify;
+    
 }
 
 /*etiqueta nombre*/
 #nombre{
     font-weight: bold;
-    margin-top: 30%;
+    margin-top: 12vw;
     font-size: 14px;
     margin-left: 2px;
     text-align: center;
@@ -31,25 +31,35 @@ div{
         border-radius: 100%;
         box-shadow: 3px 3px 3px blue;
         left:3px;
-        top: 480px;
+        top: 50vw;
         margin-left: 15px;
-        
     }
+   
 }
 
 @media(max-width:575px){
+    #nombre{
+       margin-top: 24vw;
+    }
     #fotoDePerfil{
         position: absolute;
         width: 25%;
         border-radius: 100%;
         box-shadow: 3px 3px 3px 3px;
-        left:30%;
-        top: 510px;
-        margin-left: 10px;
-        
-    }
+        left:38%;
+        top: 260px;
+     }
+    
 }
+
 /*título Acerca de mi*/
 #titPres{
     text-align: center;
+    margin-top: 1vw;
+}
+
+/*texto presentacion*/
+#textoPresentacion{
+    text-align: justify;
+    margin: 2vw;
 }
