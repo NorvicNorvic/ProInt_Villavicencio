@@ -30,6 +30,12 @@ img{
 .redes img{
   width: 40px;
   margin: 5px;
+
+}
+.btn{
+  position: absolute;
+  margin-right: 10px;
+
 }
 }
 
