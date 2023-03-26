@@ -4,12 +4,14 @@
             <img src="../../../assets/APlogo.jpg"  id="logo">
         </div>
 
-        <div class="redes">
+        <div  class="redes" >
                 <a href=""><img src="../../../assets/facebook.png" alr=""></a>
                 <a href=""><img src="../../../assets/instagram.png" alr=""></a>
                 <a href=""><img src="../../../assets/github.png" alr=""></a>
                 <a href=""><img src="../../../assets/linkedin.png" alr=""></a>
-                <button type="button" class="btn btn--4">INGRESO</button>
+                <button type="button" class="btn btn--4" (click)="login()" *ngIf="!isLogged">INGRESO</button>
+                <button type="button" class="btn btn--4 " (click)="onLogOut()" *ngIf="isLogged">CERRAR SESIÓN</button>
+
         </div>
 
 </div>
